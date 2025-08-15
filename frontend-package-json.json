@@ -1,0 +1,77 @@
+{
+  "name": "zaitoon-store-frontend",
+  "version": "1.0.0",
+  "description": "زيتون ستور - واجهة نظام إدارة الموارد",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.0",
+    "axios": "^1.6.2",
+    "react-query": "^3.39.3",
+    "@tanstack/react-query": "^5.8.4",
+    "react-hook-form": "^7.48.2",
+    "react-hot-toast": "^2.4.1",
+    "recharts": "^2.10.3",
+    "date-fns": "^2.30.0",
+    "react-datepicker": "^4.23.0",
+    "react-select": "^5.8.0",
+    "react-table": "^7.8.0",
+    "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^2.0.18",
+    "socket.io-client": "^4.6.0",
+    "html5-qrcode": "^2.3.8",
+    "react-barcode": "^1.4.6",
+    "react-to-print": "^2.14.15",
+    "jspdf": "^2.5.1",
+    "html2canvas": "^1.4.1",
+    "react-icons": "^4.12.0",
+    "framer-motion": "^10.16.12",
+    "zustand": "^4.4.7",
+    "react-countdown": "^2.3.5",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-modal": "^3.16.1",
+    "clsx": "^2.0.0",
+    "react-spinners": "^0.13.8",
+    "@reduxjs/toolkit": "^2.0.1",
+    "react-redux": "^9.0.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.42",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.0",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.6",
+    "vite": "^5.0.7"
+  },
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext js,jsx",
+    "test": "react-scripts test"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
